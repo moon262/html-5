@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pita corner</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        body{ 
+            border: 2px black solid;
+            padding: 10px;
+            width: 5in;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="semantic.html" >Semantic</a></li>
+                <li>
+                    <a href="pita from.html" >pita</a>
+                <ul class="dropdown">
+                    <li>vaba</li>
+                   <li>ros pita </li>
+                   <li>kul-ar pita</li>
+                   <li>full pita</li>
+            
+                </ul>
+                </li>
+                <li><a href="table.html" >table</a></li>
+            </ul>
+        </nav>
+        <h2>welcome to the pitha corner</h2>
+    </header>
+    
+    <form >
+        <label for="name">
+            Your Name <input type="text" placeholder="your name ">
+        </label>
+        <label for="email">
+            Your Name <input type="email" placeholder="your email ">
+        </label>
+        <label for="number">
+            Your Name <input type="number" placeholder="your number ">
+        </label>
+    
+    </form>
+    <fieldset>
+        <legend>
+            Pick on pitha
+        </legend>
+        <label for="chitoy"><input type="radio" name="pita" id="chitoy"> Chitoy</label>
+        <label for="vapa"><input type="radio" name="pita" id="vapa"> Vapa</label>
+        <label for="coconut"><input type="radio" name="pita" id="coconut"> Coconut</label>
+    </fieldset>
+    <fieldset>
+        <legend>Select one more vorta</legend>
+        <label for="sorisa"><input type="checkbox" name="vorta" id="sorisa"> Sorisa</label>
+        <label for="tomato"><input type="checkbox" name="vorta" id="tomato"> Tomato</label>
+        <label for="sos"><input type="checkbox" name="vorta" id="sos"> Sos</label>
+    </fieldset>
+    <fieldset>
+        <legend>Spacial Instruction</legend>
+        <label > <textarea name="say some think" id="" cols="56" rows="4"></textarea></label>
+    </fieldset>
+</body>
+</html>
